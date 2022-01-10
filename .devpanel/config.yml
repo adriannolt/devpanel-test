@@ -10,6 +10,10 @@ spec:
         value: master
       - name: DP_APP_NAME
         value: master-beta-hsxzndr
+      - name: DP_GIT_BRANCH
+        value: master
+      - name: DP_APP_NAME
+        value: master-beta-hsxzndr
       image: devpanel/php:7.4-fpm
       name: php
       ports:
@@ -31,6 +35,10 @@ spec:
         value: 0.0.0.0
       - name: NGINX_SET_REAL_IP_FROM
         value: 10.0.0.0/16
+      - name: DP_GIT_BRANCH
+        value: master
+      - name: DP_APP_NAME
+        value: master-beta-hsxzndr
       - name: DP_GIT_BRANCH
         value: master
       - name: DP_APP_NAME
